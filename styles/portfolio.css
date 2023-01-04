@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+   background:#FFF8F3;
+   background-image: url('../images/header_bg.png'),url('../images/developer.png');
+   background-repeat: no-repeat;
+   background-position:bottom right,left;
+   
+  
+}
+
+/* header and navigation styles */
+.nav-tittle{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items:center;
+}
+
+/* ul{
+    display:flex;
+} */
+
+ul li{
+    margin-left:50px;
+    
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight:700;
+    border:0;
+    padding:15px 30px;
+    color: #FFFFFF;
+    border-radius:5px;
+
+   
+}
+
+.banner{
+    margin-left:230px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-title{
+    font-weight: 600px;
+    font-size:45px;
+    margin-bottom:5px;
+}
+
+.website-title{
+    font-weight:700px;
+    font-size:85px;
+    margin-bottom:34px;
+}
+
+.website-description{
+    margin-bottom:16px;
+}
+
+.contract-btn{
+    border:1px solid #FD6E0A;
+    border-radius:5px;
+    padding:10px 20px;
+    margin-left: 50px;
+    background-color:pink;
+}
+
+.extra-btn{
+    display: flex;
+    
+}
+
+/* main section styles */
+.main-section{
+    max-width:1140px;
+    margin:0px auto;
+    margin-top: 35px;
+    
+
+}
+
+.about-me-section{
+    background-color:#FFF8F3;
+    padding:120px 140px;
+    text-align:center;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+.section-description{
+color: #757575;
+font-size:18px;
+margin-bottom: 30px;
+}
+
+.email-date-section{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+font-size:20px;
+font-weight:400;
+color:#757575
+}
+
+.info-description{
+font-size: 20px;
+    font-weight: 400;
+    color: #757575
+}
